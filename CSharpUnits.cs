@@ -76,5 +76,7 @@ namespace Tests.Diagnostics
         public int Method23(bool x) => x || x || x || x || x; // Noncompliant
 
         public int Prop => x || x || x || x || x; // Noncompliant
+        
+        public int Maximum { get; set; } = 1;
     }
 }
