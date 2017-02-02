@@ -77,6 +77,6 @@ namespace Tests.Diagnostics
 
         public int Prop => x || x || x || x || x; // Noncompliant
         
-        public int Maximum { get; set; } = 1;
+        public bool Maximum { get; set; } = x || x || x || x || x|| x|| x|| x;
     }
 }
